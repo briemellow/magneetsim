@@ -1,0 +1,48 @@
+body {
+    background: white;
+    background-image: radial-gradient(black 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+}
+
+.magnet {
+    display: flex;
+    border: black 2px solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    cursor: grab;
+    overflow: hidden;
+}
+
+#Magnet1 {
+    top: 400px;
+    left: 600px;
+}
+
+#Magnet2 {
+    top: 400px;
+    left: 1100px;
+}
+
+.pole {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    user-select: none;
+}
+
+.north {
+    background-color: blue;
+    border-right: 2px solid black;
+}
+
+.south {
+    background-color: red;
+    border-left: 2px solid black;
+}
