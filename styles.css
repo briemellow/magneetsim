@@ -5,6 +5,27 @@ body {
     background-position: -19px -19px;
 }
 
+#Kobe{
+    float: left;
+}
+#Yahiya{
+    float: right;
+}
+.background{
+    border: 5px solid black;
+    display: block;
+    border-radius: 30px;
+    height: 50px;
+    margin: auto;
+    width: 50%;
+    width: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+}
+
 .magnet {
     display: flex;
     border: black 2px solid;
